@@ -23,6 +23,7 @@
     <config-file target="AndroidManifest.xml" parent="/*">
       <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
       <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+      <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     </config-file>
   </platform>
 
